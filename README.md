@@ -11,7 +11,7 @@ $ git clone https://github.com/Syhrularv/yahoochecker
 $ cd yahoochecker
 $ python2 check.py
 ```
-And input your list mail<br>
+And enter your list mail<br>
 Done :)
 <br>
 Check output valid & invalid in folder output
