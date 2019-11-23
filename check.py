@@ -65,7 +65,6 @@ def yahoolist():
             jok = re.compile('"messages.ERROR_INVALID_USERNAME">.*')
             try:
                 pek = jok.search(klik).group()
-                print(pek)
             except:
                 print W + '[ ' + G + 'VALID ' + W + '] ' + mail
                 save2.write(mail + '\n')
